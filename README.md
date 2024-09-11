@@ -16,7 +16,7 @@ Check the [Terraform Telmate](https://registry.terraform.io/providers/Telmate/pr
 - Create VM template using a cloud-init image, for example: [Ubuntu 22.04 QCow2 cloud image](https://cloud-images.ubuntu.com/jammy/current/jammy-server-cloudimg-amd64.img).
 
 ## Steps
-The [simplevm.tf](https://github.com/sanwill/proxmox-provisioning-terraform/simplevm.tf) has example of a simple Terraform main tf file contains resource block to provision VM.
+The [simplevm.tf](https://github.com/sanwill/proxmox-provisioning-terraform/blob/main/simplevm.tf) has example of a simple Terraform main tf file contains resource block to provision VM.
 
 ```
 terraform apply
