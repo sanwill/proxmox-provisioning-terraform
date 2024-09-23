@@ -39,4 +39,4 @@ proxmox_vm_qemu.tf-vm[0]: Creation complete after 1m37s [id=<PVE node name>/qemu
  
 ## Few notes:
 - General consensus is to use internal NVME, SSD, HDD as the boot drive of the VM. HDD is slow but it will work but don't use external drive at all.
-- Consider to split the main tf file from variables, variable declarations, credentials and providers. You can place them into separted tfvars or tf files. Terraform by default would read all files in the same directory.
+- Consider to use terrafor modules.
